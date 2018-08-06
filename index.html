@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
-<ol type="i">
+<ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+        <h3>{{ post.date | date: "%d %b %y" }}</h3>
+        <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-</ol>
+</ul>
