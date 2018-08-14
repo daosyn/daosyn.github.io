@@ -1,12 +1,13 @@
 # restart the server by running 'bundle exec jekyll serve' if this file has been edited
 
 # use in templates via {{ site.myvariable }}.
-title: building discipline
-email: elmobey@gmail.com
+title: daosyn
+email: daosyn@gmail.com
 description: >-
   getting motivated to do things / reflections on experiences / other interests
 url: https://daosyn.info
 github_url: https://www.github.com/daosyn
+stack_overflow_url: https://stackoverflow.com/users/10222029/daosyn
 linkedin_url: https://www.linkedin.com/in/daosyn
 twitter_url: https://www.twitter.com/daosyn
 instagram_url: https://www.instagram.com/daosyn_
