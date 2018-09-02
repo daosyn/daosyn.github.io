@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on daosyn</title>
+    <link>https://daosyn.info/posts/</link>
+    <description>Recent content in Posts on daosyn</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Sep 2018 03:13:37 +0000</lastBuildDate>
+    
+	<atom:link href="https://daosyn.info/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>https://daosyn.info/posts/test/</link>
+      <pubDate>Sat, 01 Sep 2018 03:13:37 +0000</pubDate>
+      
+      <guid>https://daosyn.info/posts/test/</guid>
+      <description>Hello World</description>
+    </item>
+    
+  </channel>
+</rss>
