@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://daosyn.info/categories/</loc>
+    <loc>https://daosyn.info/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://daosyn.info/tags/</loc>
+    <loc>https://daosyn.info/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://daosyn.info/</loc>
+    <loc>https://daosyn.info/</loc>
     <priority>0</priority>
   </url>
   

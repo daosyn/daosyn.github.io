@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>daosyn</title>
-    <link>http://daosyn.info/</link>
+    <link>https://daosyn.info/</link>
     <description>Recent content on daosyn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-        <atom:link href="http://daosyn.info/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://daosyn.info/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
