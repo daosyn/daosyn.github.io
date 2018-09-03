@@ -6,18 +6,19 @@
     <description>Recent content on daosyn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Sep 2018 03:13:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Sep 2018 03:21:01 +0000</lastBuildDate>
     
 	<atom:link href="https://daosyn.info/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Test</title>
-      <link>https://daosyn.info/posts/test/</link>
-      <pubDate>Sat, 01 Sep 2018 03:13:37 +0000</pubDate>
+      <title>About</title>
+      <link>https://daosyn.info/about/</link>
+      <pubDate>Mon, 03 Sep 2018 03:21:01 +0000</pubDate>
       
-      <guid>https://daosyn.info/posts/test/</guid>
-      <description>Hello World</description>
+      <guid>https://daosyn.info/about/</guid>
+      <description>Hi! My name is Brandon Dao. Many things interest me, but currently I am into Golang, table tennis, Osamu Dazai, and wasting money on frivolous things.
+Thoughts that are tangible in any way will be shared here. For short form thoughts, find me on Mastodon.</description>
     </item>
     
   </channel>
