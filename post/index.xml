@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>daosyn</title>
-    <link>https://daosyn.info/</link>
-    <description>Recent content on daosyn</description>
+    <title>Posts on daosyn</title>
+    <link>https://daosyn.info/post/</link>
+    <description>Recent content in Posts on daosyn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Sep 2018 02:23:51 +0000</lastBuildDate>
     
-	<atom:link href="https://daosyn.info/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://daosyn.info/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>https://daosyn.info/post/overcoming-jealousy/</guid>
       <description>&lt;p&gt;I have a problem.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://daosyn.info/about/</link>
-      <pubDate>Mon, 03 Sep 2018 03:21:01 +0000</pubDate>
-      
-      <guid>https://daosyn.info/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://daosyn.info/me.jpg&#34;/&gt;
 &lt;/p&gt;</description>
     </item>
     

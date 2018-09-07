@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://daosyn.info/post/overcoming-jealousy/</loc>
+    <lastmod>2018-09-07T02:23:51+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://daosyn.info/about/</loc>
     <lastmod>2018-09-03T03:21:01+00:00</lastmod>
   </url>
@@ -13,13 +18,19 @@
   </url>
   
   <url>
+    <loc>https://daosyn.info/post/</loc>
+    <lastmod>2018-09-07T02:23:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://daosyn.info/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://daosyn.info/</loc>
-    <lastmod>2018-09-03T03:21:01+00:00</lastmod>
+    <lastmod>2018-09-07T02:23:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
