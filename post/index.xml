@@ -6,10 +6,33 @@
     <description>Recent content in Posts on daosyn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Sep 2018 02:23:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Sep 2018 03:20:23 +0000</lastBuildDate>
     
 	<atom:link href="https://daosyn.info/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Family</title>
+      <link>https://daosyn.info/post/family/</link>
+      <pubDate>Thu, 13 Sep 2018 03:20:23 +0000</pubDate>
+      
+      <guid>https://daosyn.info/post/family/</guid>
+      <description>&lt;p&gt;I have been feeling quite a bit more sentimental than productive lately, so this is going to be another more personal post that falls outside of the content I had intended to use this blog for.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://daosyn.info/image/cousins.png&#34;/&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Go[lang] and [Surface] Go</title>
+      <link>https://daosyn.info/post/go-and-go/</link>
+      <pubDate>Fri, 07 Sep 2018 17:25:26 -0500</pubDate>
+      
+      <guid>https://daosyn.info/post/go-and-go/</guid>
+      <description>&lt;p&gt;I am currently learning Go on the side for fun.
+I really appreciate the conciseness of every facet of the language, from its built-in testing package, a formatter that standardizes coding style, an enforced but sensible workspace structure, and the sheer simplicity of the language&amp;rsquo;s syntax.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Overcoming Jealousy</title>

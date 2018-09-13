@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.49-DEV" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Go[lang] and [Surface] Go &middot; daosyn</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://daosyn.info/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://daosyn.info/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://daosyn.info/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://daosyn.info/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="daosyn" />
+
+  
+</head>
+
+  <body class="theme-base-08 layout-reverse">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://daosyn.info/"><h1>daosyn</h1></a>
+      <p class="lead">
+       thoughts and ramblings on code, tech, and other interests 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://daosyn.info/">Home</a> </li>
+        <li><a href="/about/"> About </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Go[lang] and [Surface] Go</h1>
+  <time datetime=2018-09-07T17:25:26-0500 class="post-date">Fri, Sep 7, 2018</time>
+  <p>I am currently learning Go on the side for fun.
+I really appreciate the conciseness of every facet of the language, from its built-in testing package, a formatter that standardizes coding style, an enforced but sensible workspace structure, and the sheer simplicity of the language&rsquo;s syntax.
+</p>
+
+<p>Recently, I unintentionally obtained a Surface Go for myself.
+I had purchased one online for my younger sister, but since it did not arrive in time, I grabbed another one from a physical store.
+She was thoroughly satisfied with the size and functionality of the tiny thing, so I was convinced to keep the extra one that arrived a week later.</p>
+
+<p>In my opinion, Microsoft has been doing a lot of commendable things recently.
+They are focusing on building their brand in such a way that caters to developers by releasing products like the Windows Subsystem for Linux (WSL) and Visual Studio Code, and also by continuing to support the open source community after acquiring GitHub.
+Azure is one of the biggest competitors to the powerhouse that is Amazon Web Services, and the Surface line is becoming more and more enticing as Apple continues to churn out less-than-optimal MacBooks with shallow keyboards, stripped down ports, and that Touch Bar that seems more gimmicky than it is practical.</p>
+
+<p>My experience in the work place has really made me come to understand the usefulness of command-line interfaces (CLI) over using a graphical user interface to perform actions.
+With a simple <code>-h</code> I can specify the hostname that I want to connect to instead of scrolling through a list of available hosts and clicking on the right one when I finally find it.
+I still intend and want to learn PowerShell at some point, but one of the biggest reasons why most developers used MacBooks had been because MacBooks provided a Unix shell right out of the box.
+PowerShell might be useful, but the tech industry currently depends on containers and servers running Linux to deploy their software.
+And now with WSL, macOS and Windows are back on equal footing for developers to consider.</p>
+
+<p>Anyway, as much as I like Vim, I typically develop using Visual Studio Code because that is what my teammates use at work to code in Node.js and Angular.
+It is slightly easier to show someone how to find and replace patterns with Ctrl+F in VS Code than it is to explain how to use <code>:substitute</code> in Vim.
+I have multiple machines that I use Go on, and I prefer using the same <code>$GOPATH</code> across all of them.
+With WSL, however, I am not able to interact with my normal Go path outside of WSL, i.e., in VS Code.
+To circumvent this, I make it so that my actual Go workspace resides in a folder accessible to Windows and create a symbolic link to it where my <code>$GOPATH</code> would normally be.
+Essentially, I run these commands:</p>
+
+<pre><code class="language-sh"># /mnt/c/ is how C:\ is represented in WSL
+mv $GOPATH /mnt/c/Users/&lt;username&gt;/&lt;whatever&gt;
+
+# link new location back to $GOPATH
+ln -s /mnt/c/Users/&lt;username&gt;/&lt;whatever&gt; $GOPATH
+
+# run this in any Go project tracked by git
+git config core.filemode false
+</code></pre>
+
+<p>The last command is needed because the symbolic link that gets created, for reasons I still need to understand, always shows permissions as <code>777</code>.
+Setting that git configuration ensures that I do not commit any changes related to the permissions of a file.
+In VS Code, I set <code>&quot;terminal.integrated.shell.windows&quot;: &quot;C:\\WINDOWS\\System32\\wsl.exe&quot;</code> in my <code>settings.json</code> so that I get my WSL shell when working in the editor.</p>
+
+<p>So that is my current configuration. I do not know if this is the most optimal way to go about doing it, but it works.</p>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>
