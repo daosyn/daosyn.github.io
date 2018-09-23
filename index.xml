@@ -6,10 +6,20 @@
     <description>Recent content on daosyn</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Sep 2018 03:20:23 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Sep 2018 06:46:44 -0500</lastBuildDate>
     
 	<atom:link href="https://daosyn.info/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Circling Back - Yubikey Setup With Surface Go</title>
+      <link>https://daosyn.info/post/circling-back/</link>
+      <pubDate>Sun, 23 Sep 2018 06:46:44 -0500</pubDate>
+      
+      <guid>https://daosyn.info/post/circling-back/</guid>
+      <description>&lt;p&gt;A big hurdle that I have been running into recently has been setting up my Yubikey with all of the devices that I use.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Family</title>

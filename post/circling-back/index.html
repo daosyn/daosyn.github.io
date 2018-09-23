@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="//gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.48" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Circling Back - Yubikey Setup With Surface Go &middot; daosyn</title>
+
+  
+  <link type="text/css" rel="stylesheet" href="https://daosyn.info/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="https://daosyn.info/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="https://daosyn.info/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="https://daosyn.info/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="" rel="alternate" type="application/rss+xml" title="daosyn" />
+
+  
+</head>
+
+  <body class="theme-base-08 layout-reverse">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://daosyn.info/"><h1>daosyn</h1></a>
+      <p class="lead">
+       thoughts and ramblings on code, tech, and other interests 
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="https://daosyn.info/">Home</a> </li>
+        <li><a href="/about/"> About </a></li>
+      </ul>
+    </nav>
+
+    <p>&copy; 2018. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="post">
+  <h1>Circling Back - Yubikey Setup With Surface Go</h1>
+  <time datetime=2018-09-23T06:46:44-0500 class="post-date">Sun, Sep 23, 2018</time>
+  <p>A big hurdle that I have been running into recently has been setting up my Yubikey with all of the devices that I use.
+</p>
+
+<p>The Yubikey has been in my possession for a few months now.
+I started using only the U2F feature with popular services such as Google, Twitter, Facebook, and GitHub, and it was quick and painless to get it set up and running.
+I recently found out that my workplace also supports Yubikeys for multi-factor authentication, even though only the one-time password feature is supported.
+Setting that up was also simple, and I enjoyed the ease of using the Yubikey over generating codes on a phone so much that I began looking into other ways that I could integrate the key into my workflow, for added security, of course, but also just for fun.</p>
+
+<figure>
+    <img src="/image/yubiwall.jpg"/>
+    <figcaption>
+        I switched back to an old wallet from a Bellroy Slim Sleeve because it provided an easy way to carry the key.
+    </figcaption>
+</figure>
+
+<p>I have a Chromebook (Acer C771), ThinkPad (X220), Surface Go, a corporate MacBook Pro, and a desktop computer currently running Windows 10.
+Using GPG on a Tails live image from my desktop to create keys and then move them to the Yubikey was fairly straightforward following the <a href="https://github.com/drduh/YubiKey-Guide">steps from drduh</a>.
+Setting up <code>gpg-agent</code> to run properly by ensuring that other services such as <code>ssh-agent</code> did not take precedence was where I started running into trouble, but &ndash; at least for my ThinkPad, MacBook, and desktop &ndash; adding an environment variable or a few lines into my profile quickly resolved my issues.</p>
+
+<p>My Chromebook is the device I use most for carrying around places due to its compact size and ruggedness &ndash; it is an education model, so it even has rubber edges to prevent damage from accidental drops.
+I had been using the Android app, <a href="https://termux.com/">Termux</a>, to learn Golang, and it was proving to be a very solid setup.
+So I was fairly disappointed when I realized there is currently no way (apparent to me, at least) for Termux to access my Yubikey.
+There is a flag, <code>#arc-usb-host</code>, that I tried setting to true in order to see whether that would allow Termux to see USB devices, but no dice.
+Hopefully, once Linux apps support comes to my Chromebook, everything will be smooth sailing.</p>
+
+<p>To preface my Surface Go setup, I previously wrote about how I preferred using WSL over PowerShell because I felt more at home in Bash.
+WSL suffers from the similar problem that I ran into with my Chromebook, which is that WSL is basically a separate runtime on top of the main operating system and does not currently support external hardware out of the box.
+I needed to use PowerShell if I wanted to be able to use my Yubikey to sign my Git commits and connect to GitHub via SSH, which basically meant that I had to abandon my previous workflow with WSL and reinstall all of the tools that I had running in WSL.
+In addition to Go and Git, which are basically all I am using at the moment for development, I had to install PuTTY and Gpg4win.</p>
+
+<p>One minor difference that created inconvenience with the Surface Go in comparison to my desktop was that the Surface Go has another smartcard reader that is used to Windows Hello.
+The issue with this is that the <code>scdaemon</code> that <code>gpg-agent</code> runs to check for smartcards is not able to find the Yubikey, presumably because it checks the <code>Microsoft IDF 0</code> reader first and errors out before checking for the Yubikey.
+I had to scour the web and eventually found a comment in some forum explaining this, and that I can tell the <code>scdaemon</code> to specifically check for the Yubikey by adding <code>reader-port Yubico Yubikey 4 OTP+U2F+CCID 0</code> to <code>scdaemon.conf</code> in the GPG home folder.
+That is on top of enabling PuTTY support and setting <code>GIT_SSH</code> as an environment variable with its value pointing to <code>plink</code>.</p>
+
+<figure>
+    <img src="/image/gossh.jpg"/>
+    <figcaption>
+        Success!
+    </figcaption>
+</figure>
+</div>
+
+
+    </main>
+
+    
+  </body>
+</html>
