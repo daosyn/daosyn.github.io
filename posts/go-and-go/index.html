@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Brandon Dao">
+    <meta name="description" content="yak shaving">
+    
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Go[lang] and [Surface] Go"/>
+<meta name="twitter:description" content="I am currently learning Go on the side for fun. I really appreciate the conciseness of every facet of the language, from its built-in testing package, a formatter that standardizes coding style, an enforced but sensible workspace structure, and the sheer simplicity of the language&rsquo;s syntax.
+Recently, I unintentionally obtained a Surface Go for myself. I had purchased one online for my younger sister, but since it did not arrive in time, I grabbed another one from a physical store."/>
+
+
+    <base href="https://daosyn.info/posts/go-and-go/">
+    <title>
+  Go[lang] and [Surface] Go · (daosyn)
+</title>
+
+    <link rel="canonical" href="https://daosyn.info/posts/go-and-go/">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:300,700|Source+Code+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.a3307e096757a84995f145daccdad26307f88b657e9946d207d011e314ef1442.css" integrity="sha256-ozB&#43;CWdXqEmV8UXazNrSYwf4i2V&#43;mUbSB9AR4xTvFEI=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-inverted.min.4c134d967dd06919ae5d10623635c02969609454cafdc097311166a422b92315.css" integrity="sha256-TBNNln3QaRmuXRBiNjXAKWlglFTK/cCXMRFmpCK5IxU=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://daosyn.info/favicon.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://daosyn.info/favicon.png" sizes="16x16">
+
+    
+
+    <meta name="generator" content="Hugo 0.53" />
+  </head>
+
+  <body class=" inverted">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://daosyn.info/">
+      (daosyn)
+    </a>
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/posts/">blog</a>
+          </li>
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/about/">about</a>
+          </li>
+        
+      
+      
+    </ul>
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">Go[lang] and [Surface] Go</h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fas fa-calendar"></i>
+              <time datetime='2018-09-07T17:25:26-05:00'>
+                September 7, 2018
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fas fa-clock"></i>
+              3 minutes read
+            </span>
+          </div>
+          
+          
+        </div>
+      </header>
+
+      <div>
+        <p>I am currently learning Go on the side for fun.
+I really appreciate the conciseness of every facet of the language, from its built-in testing package, a formatter that standardizes coding style, an enforced but sensible workspace structure, and the sheer simplicity of the language&rsquo;s syntax.</p>
+
+<p>Recently, I unintentionally obtained a Surface Go for myself.
+I had purchased one online for my younger sister, but since it did not arrive in time, I grabbed another one from a physical store.
+She was thoroughly satisfied with the size and functionality of the tiny thing, so I was convinced to keep the extra one that arrived a week later.</p>
+
+<p>In my opinion, Microsoft has been doing a lot of commendable things recently.
+They are focusing on building their brand in such a way that caters to developers by releasing products like the Windows Subsystem for Linux (WSL) and Visual Studio Code, and also by continuing to support the open source community after acquiring GitHub.
+Azure is one of the biggest competitors to the powerhouse that is Amazon Web Services, and the Surface line is becoming more and more enticing as Apple continues to churn out less-than-optimal MacBooks with shallow keyboards, stripped down ports, and that Touch Bar that seems more gimmicky than it is practical.</p>
+
+<p>My experience in the work place has really made me come to understand the usefulness of command-line interfaces (CLI) over using a graphical user interface to perform actions.
+With a simple <code>-h</code> I can specify the hostname that I want to connect to instead of scrolling through a list of available hosts and clicking on the right one when I finally find it.
+I still intend and want to learn PowerShell at some point, but one of the biggest reasons why most developers used MacBooks had been because MacBooks provided a Unix shell right out of the box.
+PowerShell might be useful, but the tech industry currently depends on containers and servers running Linux to deploy their software.
+And now with WSL, macOS and Windows are back on equal footing for developers to consider.</p>
+
+<p>Anyway, as much as I like Vim, I typically develop using Visual Studio Code because that is what my teammates use at work to code in Node.js and Angular.
+It is slightly easier to show someone how to find and replace patterns with Ctrl+F in VS Code than it is to explain how to use <code>:substitute</code> in Vim.
+I have multiple machines that I use Go on, and I prefer using the same <code>$GOPATH</code> across all of them.
+With WSL, however, I am not able to interact with my normal Go path outside of WSL, i.e., in VS Code.
+To circumvent this, I make it so that my actual Go workspace resides in a folder accessible to Windows and create a symbolic link to it where my <code>$GOPATH</code> would normally be.
+Essentially, I run these commands:</p>
+
+<pre><code class="language-sh"># /mnt/c/ is how C:\ is represented in WSL
+mv $GOPATH /mnt/c/Users/&lt;username&gt;/&lt;whatever&gt;
+
+# link new location back to $GOPATH
+ln -s /mnt/c/Users/&lt;username&gt;/&lt;whatever&gt; $GOPATH
+
+# run this in any Go project tracked by git
+git config core.filemode false
+</code></pre>
+
+<p>The last command is needed because the symbolic link that gets created, for reasons I still need to understand, always shows permissions as <code>777</code>.
+Setting that git configuration ensures that I do not commit any changes related to the permissions of a file.
+In VS Code, I set <code>&quot;terminal.integrated.shell.windows&quot;: &quot;C:\\WINDOWS\\System32\\wsl.exe&quot;</code> in my <code>settings.json</code> so that I get my WSL shell when working in the editor.</p>
+
+<p>So that is my current configuration. I do not know if this is the most optimal way to go about doing it, but it works.</p>
+
+      </div>
+
+      <footer>
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+    
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+
+  </body>
+
+</html>

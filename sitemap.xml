@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://daosyn.info/post/focus-chunkwm/</loc>
+    <loc>https://daosyn.info/posts/focus-chunkwm/</loc>
     <lastmod>2018-12-18T20:22:37-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://daosyn.info/post/psp-go/</loc>
+    <loc>https://daosyn.info/posts/psp-go/</loc>
     <lastmod>2018-10-13T11:03:53-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://daosyn.info/post/circling-back/</loc>
+    <loc>https://daosyn.info/posts/circling-back/</loc>
     <lastmod>2018-09-23T06:46:44-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://daosyn.info/post/go-and-go/</loc>
+    <loc>https://daosyn.info/posts/go-and-go/</loc>
     <lastmod>2018-09-07T17:25:26-05:00</lastmod>
   </url>
   
@@ -28,24 +28,24 @@
   </url>
   
   <url>
+    <loc>https://daosyn.info/</loc>
+    <lastmod>2018-12-18T20:22:37-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://daosyn.info/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://daosyn.info/post/</loc>
+    <loc>https://daosyn.info/posts/</loc>
     <lastmod>2018-12-18T20:22:37-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://daosyn.info/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://daosyn.info/</loc>
-    <lastmod>2018-12-18T20:22:37-06:00</lastmod>
     <priority>0</priority>
   </url>
   

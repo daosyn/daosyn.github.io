@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>(daosyn)</title>
-    <link>https://daosyn.info/</link>
-    <description>Recent content on (daosyn)</description>
+    <title>Posts on (daosyn)</title>
+    <link>https://daosyn.info/posts/</link>
+    <description>Recent content in Posts on (daosyn)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 Dec 2018 20:22:37 -0600</lastBuildDate>
     
-	<atom:link href="https://daosyn.info/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://daosyn.info/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -50,18 +50,6 @@ The Yubikey has been in my possession for a few months now. I started using only
       <guid>https://daosyn.info/posts/go-and-go/</guid>
       <description>I am currently learning Go on the side for fun. I really appreciate the conciseness of every facet of the language, from its built-in testing package, a formatter that standardizes coding style, an enforced but sensible workspace structure, and the sheer simplicity of the language&amp;rsquo;s syntax.
 Recently, I unintentionally obtained a Surface Go for myself. I had purchased one online for my younger sister, but since it did not arrive in time, I grabbed another one from a physical store.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://daosyn.info/about/</link>
-      <pubDate>Mon, 03 Sep 2018 03:21:01 +0000</pubDate>
-      
-      <guid>https://daosyn.info/about/</guid>
-      <description>Hi! My name is Brandon Dao.
- view resume public key  Alternatively, you can import my public key directly to GPG:
-curl https://daosyn.info/pubkey.asc | gpg --import  A few things about me:
- I am currently a software developer at Capital One, working on building modern web applications. Computers have always been something I enjoyed tinkering with, albeit typically without purpose. Being one of the first users of a technology has always gotten me excited in some inexplicable way.</description>
     </item>
     
   </channel>
