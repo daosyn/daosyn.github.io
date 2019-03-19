@@ -4,33 +4,47 @@
   
   <url>
     <loc>https://daosyn.info/posts/focus-chunkwm/</loc>
-    <lastmod>2018-12-18T20:22:37-06:00</lastmod>
+    <lastmod>2018-12-18T00:00:00-06:00</lastmod>
   </url>
   
   <url>
     <loc>https://daosyn.info/posts/psp-go/</loc>
-    <lastmod>2018-10-13T11:03:53-05:00</lastmod>
+    <lastmod>2018-10-13T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://daosyn.info/posts/circling-back/</loc>
-    <lastmod>2018-09-23T06:46:44-05:00</lastmod>
+    <lastmod>2018-09-23T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://daosyn.info/posts/go-and-go/</loc>
-    <lastmod>2018-09-07T17:25:26-05:00</lastmod>
+    <lastmod>2018-09-07T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://daosyn.info/about/</loc>
-    <lastmod>2018-09-03T03:21:01+00:00</lastmod>
+    <loc>https://daosyn.info/posts/dating/</loc>
+    <lastmod>2018-08-22T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://daosyn.info/</loc>
-    <lastmod>2018-12-18T20:22:37-06:00</lastmod>
-    <priority>0</priority>
+    <loc>https://daosyn.info/posts/surfing/</loc>
+    <lastmod>2018-08-11T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://daosyn.info/posts/best/</loc>
+    <lastmod>2018-07-27T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://daosyn.info/posts/velleity/</loc>
+    <lastmod>2018-06-21T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://daosyn.info/posts/choices/</loc>
+    <lastmod>2018-05-02T00:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -39,13 +53,35 @@
   </url>
   
   <url>
+    <loc>https://daosyn.info/categories/naivety/</loc>
+    <lastmod>2018-08-22T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://daosyn.info/posts/</loc>
-    <lastmod>2018-12-18T20:22:37-06:00</lastmod>
+    <lastmod>2018-12-18T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://daosyn.info/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://daosyn.info/categories/technology/</loc>
+    <lastmod>2018-12-18T00:00:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://daosyn.info/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://daosyn.info/</loc>
+    <lastmod>2018-12-18T00:00:00-06:00</lastmod>
     <priority>0</priority>
   </url>
   

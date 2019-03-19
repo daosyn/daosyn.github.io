@@ -1,113 +1,28 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#aa0000">
+<meta name="msapplication-TileColor" content="#aa0000">
+<meta name="theme-color" content="#aa0000">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="https://daosyn.info//css/main.css">
+<link rel="stylesheet" type="text/css" href="https://daosyn.info//css/prism.css">
 
-    <meta name="author" content="Brandon Dao">
-    <meta name="description" content="yak shaving">
-    
-
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="switching terminal focus with chunkwm"/>
-<meta name="twitter:description" content="A quick little trick I solved for recently was switching between multiple iTerm2 windows that I would have open during a normal work day.
-My workflow consists of using chunkwm across three different desktops to manage all of my windows without much effort on my part:
- Desktop 1 (left) is solely for my terminal windows, which are tiled. Desktop 2 (center) contains my web browser and any other non-IDE tool/app that I may need to use, in monocle format."/>
-
-
-    <base href="https://daosyn.info/posts/focus-chunkwm/">
-    <title>
-  switching terminal focus with chunkwm · (daosyn)
-</title>
-
-    <link rel="canonical" href="https://daosyn.info/posts/focus-chunkwm/">
-
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:300,700|Source+Code+Pro:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" integrity="sha256-oSrCnRYXvHG31SBifqP2PM1uje7SJUyX0nTwO2RJV54=" crossorigin="anonymous" />
-
-    
-      
-      
-      <link rel="stylesheet" href="/css/coder.min.ac37073bc2826cd28ef57364a9fe339de7ebcb26dafc22fd832cb35cf5b1d048.css" integrity="sha256-rDcHO8KCbNKO9XNkqf4znefryyba/CL9gyyzXPWx0Eg=" crossorigin="anonymous" media="screen" />
-    
-
-    
-
-    
-      
-        
-        
-        <link rel="stylesheet" href="/css/coder-inverted.min.b275a7d098cfe39135a5644e9c6d811e77fc4bdeac01e8e339c7d767146340a8.css" integrity="sha256-snWn0JjP45E1pWROnG2BHnf8S96sAejjOcfXZxRjQKg=" crossorigin="anonymous" media="screen" />
-      
-    
-
-    
-
-    <link rel="icon" type="image/png" href="https://daosyn.info/favicon.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://daosyn.info/favicon.png" sizes="16x16">
-
-    
-
-    <meta name="generator" content="Hugo 0.53" />
-  </head>
-
-  <body class=" inverted">
-    <main class="wrapper">
-      <nav class="navigation">
-  <section class="container">
-    <a class="navigation-title" href="https://daosyn.info/">
-      (daosyn)
-    </a>
-    <input type="checkbox" id="menu-toggle" />
-    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
-    <ul class="navigation-list">
-      
-        
-          <li class="navigation-item">
-            <a class="navigation-link" href="/posts/">blog</a>
-          </li>
-        
-          <li class="navigation-item">
-            <a class="navigation-link" href="/about/">about</a>
-          </li>
-        
-      
-      
+<body><div id="header">
+  <nav role="navigation">
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/about" >about</a></li>
     </ul>
-  </section>
-</nav>
-
-
-      <div class="content">
-        
-  <section class="container post">
-    <article>
-      <header>
-        <div class="post-title">
-          <h1 class="title">switching terminal focus with chunkwm</h1>
-        </div>
-        <div class="post-meta">
-          <div class="date">
-            <span class="posted-on">
-              <i class="fas fa-calendar"></i>
-              <time datetime='2018-12-18T20:22:37-06:00'>
-                December 18, 2018
-              </time>
-            </span>
-            <span class="reading-time">
-              <i class="fas fa-clock"></i>
-              2 minutes read
-            </span>
-          </div>
-          
-          
-        </div>
-      </header>
-
-      <div>
-        <p>A quick little trick I solved for recently was switching between multiple iTerm2 windows that I would have open during a normal work day.</p>
+  </nav>
+</div><div>
+<div id="title">
+switching terminal focus with chunkwm
+</div>
+<div id="content">
+<p>A quick little trick I solved for recently was switching between multiple iTerm2 windows that I would have open during a normal work day.</p>
 
 <p>My workflow consists of using <code>chunkwm</code> across three different desktops to manage all of my windows without much effort on my part:</p>
 
@@ -139,31 +54,9 @@ It ends up looking something like this:</p>
 
 <p>Read more about <code>chunkwm</code> <a href="https://koekeishiya.github.io/chunkwm/">here</a>.</p>
 
-      </div>
+</div>
 
-      <footer>
-        
-      </footer>
-    </article>
-
-    
-  </section>
-
-      </div>
-
-      <footer class="footer">
-  <section class="container">
-    
-    
-    
-    
-  </section>
-</footer>
-
-    </main>
-
-    
-
+    </div><footer>
+</footer><script src="https://daosyn.info//js/prism.js"></script>
   </body>
-
 </html>
