@@ -6,10 +6,19 @@
     <description>Recent content on daosyn.info</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Dec 2018 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Mon, 29 Apr 2019 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://daosyn.info/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>okay</title>
+      <link>https://daosyn.info/posts/okay/</link>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 -0500</pubDate>
+      
+      <guid>https://daosyn.info/posts/okay/</guid>
+      <description>I sat there on a park bench facing the river, its current moving at a slow and steady pace. It was calming. Birds were chirping off in the distance somewhere, probably by the small pond that formed off of the river a mile south. The air stood completely still, adding to the calmness. The green leaves of catalpa trees covered the big, beautiful blue sky. Rays of sunlight gently eased their way in through the slight openings.</description>
+    </item>
     
     <item>
       <title>switching terminal focus with chunkwm</title>
