@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on daosyn.info</title>
+    <link>https://daosyn.info/posts/</link>
+    <description>Recent content in Posts on daosyn.info</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Dec 2018 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://daosyn.info/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>switching terminal focus with chunkwm</title>
+      <link>https://daosyn.info/posts/focus-chunkwm/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://daosyn.info/posts/focus-chunkwm/</guid>
+      <description>A quick little trick I solved for recently was switching between multiple iTerm2 windows that I would have open during a normal work day.
+My workflow consists of using chunkwm across three different desktops to manage all of my windows without much effort on my part:
+ Desktop 1 (left) is solely for my terminal windows, which are tiled. Desktop 2 (center) contains my web browser and any other non-IDE tool/app that I may need to use, in monocle format.</description>
+    </item>
+    
+    <item>
+      <title>PSP Go</title>
+      <link>https://daosyn.info/posts/psp-go/</link>
+      <pubDate>Sat, 13 Oct 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://daosyn.info/posts/psp-go/</guid>
+      <description>Coincidentally or not, I have been thoroughly obsessed with all things &amp;ldquo;Go&amp;rdquo; lately&amp;hellip;
+I remember back in 2009 when the PSP Go was first released. Being a jobless high schooler at the time, I gawked at the release price of 249 USD, clamoring as to why anyone would spend that much money for a gimped PSP; that is, the PSP Go was smaller, used a proprietary charging/USB cable and memory card, and lacked the UMD drive that was used for physical copies of its game software.</description>
+    </item>
+    
+    <item>
+      <title>Circling Back - Yubikey Setup With Surface Go</title>
+      <link>https://daosyn.info/posts/circling-back/</link>
+      <pubDate>Sun, 23 Sep 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://daosyn.info/posts/circling-back/</guid>
+      <description>A small hurdle that I have been running into recently has been setting up my Yubikey with all of the devices that I use.
+The Yubikey has been in my possession for a few months now. I started using only the U2F feature with popular services such as Google, Twitter, Facebook, and GitHub, and it was quick and painless to get it set up and running. I recently found out that my workplace also supports Yubikeys for multi-factor authentication, even though only the one-time password feature is supported.</description>
+    </item>
+    
+    <item>
+      <title>Go[lang] and [Surface] Go</title>
+      <link>https://daosyn.info/posts/go-and-go/</link>
+      <pubDate>Fri, 07 Sep 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://daosyn.info/posts/go-and-go/</guid>
+      <description>I am currently learning Go on the side for fun. I really appreciate the conciseness of every facet of the language, from its built-in testing package, a formatter that standardizes coding style, an enforced but sensible workspace structure, and the sheer simplicity of the language&#39;s syntax.
+Recently, I unintentionally obtained a Surface Go for myself. I had purchased one online for my younger sister, but since it did not arrive in time, I grabbed another one from a physical store.</description>
+    </item>
+    
+    <item>
+      <title>dating</title>
+      <link>https://daosyn.info/posts/dating/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://daosyn.info/posts/dating/</guid>
+      <description>Relationships have the potential to be so satiating at times but also draining at others. We tug at each other&#39;s emotional chords until they are right on the verge of snapping, and then decide at that moment whether to rip it apart quickly like some sort of adhesive putty or to give it a moment to rest, like a freshly stretched out piece of taffy. They need time to breath and relax, but also conversely if they fail to &amp;ldquo;work out&amp;rdquo; the relationship could just as likely fizzle out.</description>
+    </item>
+    
+    <item>
+      <title>surfing</title>
+      <link>https://daosyn.info/posts/surfing/</link>
+      <pubDate>Sat, 11 Aug 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://daosyn.info/posts/surfing/</guid>
+      <description>&amp;hellip;no, not the act of riding on a rushing wave of water &amp;ndash; the indoor kind, channel surfing. What I had thought was a lost art in the age of Netflix and the Internet has actually never been so prevalent. It has just taken on a different form, with people constantly swiping through apps on their phones, from Instagram to Facebook, from Reddit to Google, from Gmail to Discord, repeat. Even within apps, people find themselves engrossed in switching from the feed to a specific profile or more focused view, and then switching back again.</description>
+    </item>
+    
+    <item>
+      <title>best</title>
+      <link>https://daosyn.info/posts/best/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://daosyn.info/posts/best/</guid>
+      <description>I want to be good at everything but not necessarily the best at everything.
+Why is that?
+Being the best at everything is hard work. From just a sheer numbers game, it is almost impossible to become the best at something. And once one becomes the best, the next person in line is always ready to take the spot. It takes a lot of effort to get to the spot, but it takes even more effort to maintain that spot.</description>
+    </item>
+    
+    <item>
+      <title>velleity</title>
+      <link>https://daosyn.info/posts/velleity/</link>
+      <pubDate>Thu, 21 Jun 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://daosyn.info/posts/velleity/</guid>
+      <description>Everyone has inclinations to do things. Everyone has ideas. Ideas are cheap. Ideas are easy to make. Not everyone has the intensity of desire to act upon these ideas and thoughts, however. A person can sit in an office at a corporate job and be ordered to create things on behalf of the company and the person will do them because there is this necessity to do so, because money is a tangible reward and because money is essential to living in society.</description>
+    </item>
+    
+    <item>
+      <title>choices</title>
+      <link>https://daosyn.info/posts/choices/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://daosyn.info/posts/choices/</guid>
+      <description>It would seem that in this day and age of the Internet, people can constantly find themselves something to do to occupy their purposeless but satisfying lives in this world. However, it is quite the opposite. There is simply an overabundance of options which causes one to become totally uncertain whether one option is a better choice than the other. It becomes so easy to get lost in that metaphorical fig tree that the main character describes in The Bell Jar.</description>
+    </item>
+    
+  </channel>
+</rss>

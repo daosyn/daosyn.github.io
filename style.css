@@ -1,34 +1,76 @@
-body {
-  position: relative;
-  background-color: mistyrose;
+.cube-container {
+  height: 720px;
+  width: 720px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 90px 90px 90px 90px 90px 90px 90px 90px;
+  position: absolute;
+  left: 50%;
+  margin-left: -360px;
 }
 
-div {
-  position: relative;
-  transition: height 10s;
-  /*
-  animation: moveright 5s infinite;
-  animation-direction: alternate-reverse;
-  animation-timing-function: ease;
-  */
+.cube-mask {
+  height: 540px;
+  width: 540px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -360px;
+  border: 90px solid white;
+  text-align: center;
 }
 
-@keyframes moveright {
-  from {left: 0px;}
-  to {left: 300px;}
+.cube-mask div {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  transition: all 1s;
 }
 
-.expand {
-  height: 1000px;
+#title,
+.title {
+  cursor: default;
+  grid-row: 2;
+  grid-column: 1;
+}
+#name,
+.name {
+  cursor: default;
+  grid-row: 3;
+  grid-column: 3;
+}
+#about,
+.about {
+  cursor: pointer;
+  grid-row: 4;
+  grid-column: 1;
+}
+#blog,
+.blog {
+  cursor: pointer;
+  grid-row: 5;
+  grid-column: 3;
+}
+#photos,
+.photos {
+  cursor: pointer;
+  grid-row: 8;
+  grid-column: 1;
+}
+#about:hover,
+#blog:hover,
+#photos:hover {
+  color: white;
+  transform: translate(5px, 5px);
 }
 
 .facelet {
-  width: 100px;
-  height: 100px;
-  display: inline-block;
-  left: 5px;
-  top: 5px;
-  border: 20px solid;
+  width: 70px;
+  height: 70px;
+  border: 10px solid;
+  /* position: absolute; */
+  transition: all 0.5s;
 }
 
 .r-face {

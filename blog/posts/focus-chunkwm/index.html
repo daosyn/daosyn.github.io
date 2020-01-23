@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#aa0000">
+<meta name="msapplication-TileColor" content="#aa0000">
+<meta name="theme-color" content="#aa0000">
+
+<link rel="stylesheet" type="text/css" href="https://daosyn.info/css/main.css">
+<link rel="stylesheet" type="text/css" href="https://daosyn.info/css/prism.css">
+
+<title>switching terminal focus with chunkwm</title>
+
+<body><div id="header">
+  <nav role="navigation">
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/about" >about</a></li>
+    </ul>
+  </nav>
+</div><div>
+<div id="title">
+switching terminal focus with chunkwm
+</div>
+<div id="content">
+<p>A quick little trick I solved for recently was switching between multiple iTerm2 windows that I would have open during a normal work day.</p>
+<p>My workflow consists of using <code>chunkwm</code> across three different desktops to manage all of my windows without much effort on my part:</p>
+<ul>
+<li>Desktop 1 (left) is solely for my terminal windows, which are tiled.</li>
+<li>Desktop 2 (center) contains my web browser and any other non-IDE tool/app that I may need to use, in monocle format.</li>
+<li>Desktop 3 (right) is where I occasionally do some development using an IDE or Visual Studio Code, which is also set to monocle.</li>
+</ul>
+<p>I prefer to stay in desktops 1 and 2 as much as possible, using <code>vim</code> as often as I can.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">RED<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\[\e[31m\]&#34;</span>
+YELLOW<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\[\e[33m\]&#34;</span>
+NOCOLOR<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;\[\e[00m\]&#34;</span>
+
+PS1<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">(</span><span style="color:#66d9ef">$((</span><span style="color:#e6db74">${</span>ITERM_SESSION_ID:1:1<span style="color:#e6db74">}</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span><span style="color:#66d9ef">))</span><span style="color:#e6db74">) </span>$RED<span style="color:#e6db74">\u</span>$YELLOW<span style="color:#e6db74"> [\W]</span>$NOCOLOR<span style="color:#e6db74">: </span><span style="color:#e6db74">&#34;</span>
+</code></pre></div><p>I opted to not use a hotkey daemon (namely <code>skhd</code>) because I only wanted one specific feature, and that is to be able to easily change focus to different terminal windows.
+<code>cmd</code> plus the terminal window number allows me to do that with iTerm2, but the problem was that since I have window bars turned off, I was not able to see the number unless I turned them back on (and for the sake of aesthetics, I chose not to).</p>
+<p>So, to solve this I simply output the iTerm2 session ID to my Bash prompt incremented by one (because the ID indexing starts at 0).
+It ends up looking something like this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell"><span style="color:#f92672">(</span>3<span style="color:#f92672">)</span> daosyn <span style="color:#f92672">[</span>~<span style="color:#f92672">]</span>: _
+</code></pre></div><p>I can now easily switch to that terminal window without having to guess by pressing <code>cmd+3</code>.</p>
+<p>Read more about <code>chunkwm</code> <a href="https://koekeishiya.github.io/chunkwm/">here</a>.</p>
+
+</div>
+
+    </div><footer>
+</footer><script src="https://daosyn.info/js/prism.js"></script>
+  </body>
+</html>

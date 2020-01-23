@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on daosyn.info</title>
+    <link>https://daosyn.info/categories/</link>
+    <description>Recent content in Categories on daosyn.info</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Dec 2018 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="https://daosyn.info/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>technology</title>
+      <link>https://daosyn.info/categories/technology/</link>
+      <pubDate>Tue, 18 Dec 2018 00:00:00 -0600</pubDate>
+      
+      <guid>https://daosyn.info/categories/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>naivety</title>
+      <link>https://daosyn.info/categories/naivety/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0500</pubDate>
+      
+      <guid>https://daosyn.info/categories/naivety/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
