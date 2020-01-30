@@ -86,9 +86,6 @@ if [ "$os" == "Darwin" ]; then
     brew services start chunkwm
 fi
 
-echo -e "\n${red}importing public key...${nocolor}\n"
-curl https://daosyn.info/pubkey.asc | gpg --import
-
 echo -e "\n${red}downloading wallpapers...${nocolor}\n"
 git clone https://github.com/daosyn/wallpapers.git $HOME/wallpapers
 

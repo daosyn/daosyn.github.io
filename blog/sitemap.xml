@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://daosyn.info/blog/categories/</loc>
+    <loc>https://daosyn.info/blog/</loc>
     <lastmod>2018-12-18T00:00:00-06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://daosyn.info/blog/</loc>
+    <loc>https://daosyn.info/blog/categories/</loc>
     <lastmod>2018-12-18T00:00:00-06:00</lastmod>
   </url>
   
@@ -70,10 +70,6 @@
   <url>
     <loc>https://daosyn.info/blog/posts/choices/</loc>
     <lastmod>2018-05-02T00:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://daosyn.info/blog/about/</loc>
   </url>
   
   <url>
