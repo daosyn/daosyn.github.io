@@ -1,5 +1,11 @@
+@font-face {
+  font-family: daosyn;
+  src: url(savior.woff) format("woff");
+}
+
 body {
   margin: 0;
+  font-family: daosyn;
 }
 
 .cube-container {
